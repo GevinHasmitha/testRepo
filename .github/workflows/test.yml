@@ -14,8 +14,8 @@ jobs:
       - name: Test curl command
         run: |
           namee="lala/lolipop"
-          echo "$namee"
-        #   packageName=$(basename $namee)
+          packageName=$(basename $namee)
+          echo "$packageName"
           # The curl command should print the value of the packageName variable
         #   response=$(curl -s -X POST \
   
