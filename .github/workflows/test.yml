@@ -21,7 +21,7 @@ jobs:
           -H "Accept: application/vnd.github.v3+json" \
           -H "Authorization: Bearer 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" \
           -d '{
-            "title": "[Release ${packageName}] Prepare for next dev cycle",
+            "title": "[Release '"$packageName"'] Prepare for next dev cycle",
             "body": "",
             "head": "headbranch",
             "base": "main"
