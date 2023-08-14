@@ -26,6 +26,6 @@ jobs:
             "head": "headyy",
             "base": "baseyy"
           }' \
-          "https://api.github.com/repos/GevinHasmitha/testRepo/pulls"
+          "https://api.github.com/repos/GevinHasmitha/testRepo/pulls")
 
           echo "Response: $response"
